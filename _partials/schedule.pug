@@ -1,0 +1,22 @@
+.schedule.content-container
+	.content.flex-col
+		h1 Schedule
+
+		.flex-row
+			for day in days
+				.third-col
+					h2= day.name
+					for event in day.events
+						.event
+							p= event.name
+							b= event.description
+							p.time= event.time
+								if (event.location)
+									|  | 
+									span.location= event.location
+							//- if (event.description == "Speakers:")
+							//- 	b= "- Gayatri Keskar | Material ConneXion"
+							//- 	br
+							//- 	b= "- Carol Thaler & Stephanie Pierce | Great Lakes Biomimicry"
+							//- 	br
+							//- 	b= "- Dr. Tameka Ellington | (dis)ABLED BEAUTY"

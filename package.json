@@ -1,0 +1,39 @@
+{
+  "name": "FTH2019",
+  "version": "0.1.0",
+  "description": "Website for the 2017 Fashion Tech Hackathon attendee website. Taking place at Kent State University on January 27-29th",
+  "main": "gulpfile.js",
+  "author": {
+    "name": "Nicholas Crawford",
+    "email": "ncrawfo7@kent.edu",
+    "url": "https://github.com/NickCrawford"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-data": "^1.3.1",
+    "gulp-newline-br": "^1.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azemoh/gulp-pug-sass-starter.git"
+  },
+  "keywords": [
+    "jade",
+    "gulp",
+    "pug",
+    "sass",
+    "browsersync"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "snapsvg": "^0.4.0"
+  }
+}

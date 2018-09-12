@@ -1,0 +1,175 @@
+@import "includes/functions";
+@import "includes/base";
+
+@import "partials/header";
+@import "partials/panels";
+@import "partials/social-icons";
+@import "partials/sponsor";
+
+body {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: $light-blue;
+}
+
+#fixed-container {
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+#content-wrapper {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.content-container {
+  position: relative;
+  min-height: 90vh;
+  margin-bottom: -10vh;
+
+  &:first-of-type {
+    margin-top: 160px;
+  }
+}
+
+.content {
+  padding: 14vh 20px 18vh 20px;
+  width: 100%;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  max-width: 890px;
+  margin: 0 auto;
+  margin-top: 0;
+  text-align: left;
+
+  z-index: 250;
+
+  &:last-of-type {
+    padding-bottom: 120px;
+  }
+}
+
+.about {
+  &.content-container {
+    background-color: $blue-green;
+    clip-path: polygon(90% 15%, 100% 15%, 100% 95%, 50% 95%, 40% 100%, 0 100%, 0 10%, 60% 10%);
+  }
+  
+  .content {
+    h1 {
+      color: $light-blue;
+    }
+  }
+}
+
+.sponsor {
+
+  &.content-container {
+    background-color: $light-green;
+    clip-path:  polygon(0 5%, 30% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .content {  
+    text-align: right;
+    align-items: flex-end;
+    h1 {
+      color: $indigo;
+    }
+
+    p {
+      color: $black;
+    }
+  }
+}
+
+.faq {
+  &.content-container {
+    background-color: $turquoise;
+    clip-path: polygon(90% 5%, 100% 0%, 100% 100%, 0 100%, 0% 0%, 60% 0%);
+  }
+  
+  .content {
+    h1 {
+      color: $light-blue;
+    }
+
+    p {
+      color: $black;
+    }
+  }
+}
+
+.schedule {
+  &.content-container {
+    background-color: $blue;
+    clip-path: polygon(90% 5%, 100% 5%, 100% 100%, 0 100%, 0% 5%, 60% 0%);
+    margin-bottom: 0;
+  }
+  
+  .content {
+    padding-bottom: 0px;
+    h1 {
+      color: white;
+    }
+
+    h2 {
+      color: $light-blue;
+    }
+  }
+
+  .event {
+    margin-bottom: 1.2em;
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.2;
+      margin-bottom: 0;
+    }
+
+    .time {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1em;
+    }
+    .location {
+      // white-space: nowrap;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+  }
+}
+
+#map {
+  border: 2px dashed $indigo;
+  border-radius: 5px;
+
+  margin: 10px 20px 20px;
+  height: 250px;
+}
+
+
+@media (min-width: 480px) {
+  .content {
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+	.content {
+		padding-left: 19px;
+		padding-right: 19px;
+	}
+}
+
