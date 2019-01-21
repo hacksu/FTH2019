@@ -47,6 +47,12 @@
 				"name" : "Swag Giveaway #1",
 				"location" : "1st Floor Atrium, Rockwell Hall ",
 				"time" : "11 pm"
+			},
+			{
+				"name" : "Snack",
+				"description" : "Hummus & Pita + Cookies",
+				"location" : "2nd Floor Atrium, Rockwell Hall",
+				"time" : "Midnight"
 			}
 		]},
 
@@ -131,12 +137,6 @@
 				"description" : "Pasta with marinara sauce and meatballs from Belleria",
 				"location" : "2nd Floor Atrium, Rockwell Hall",
 				"time" : "7 pm"
-			},
-			{
-				"name" : "Snack",
-				"description" : "Hummus & Pita + Cookies",
-				"location" : "2nd Floor Atrium, Rockwell Hall",
-				"time" : "Midnight"
 			},
 			{
 				"name" : "Ice Cream Sundae Bar",
