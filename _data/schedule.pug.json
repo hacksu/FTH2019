@@ -4,14 +4,21 @@
 			"name": "Friday, January 25th",	
 			"events": [
 			{
-				"name" : "Knit Workshop",
+				"name" : "Introduction to Raspberry Pi Workshop",
+				"location" : "Room 152, Kent State Main Library",
+				"description": "Please visit https://training.kent.edu to register for the event.",
+				"time" : "2:15 - 5 pm"
+			},
+			{
+				"name" : "Industrial Knitting Workshop",
 				"location" : "Room 332, Rockwell Hall ",
 				"time" : "3-5 pm"
 			},
 			{
 				"name" : "Check in Starts",
 				"location" : "1st Floor Atrium, Rockwell Hall",
-				"time" : "5 pm"
+				"description" : "If you end up arriving after 10 pm on Friday, please come to the front desk of the Fashion Library to check in",
+				"time" : "5 - 10 pm"
 			},
 			{
 				"name" : "Opening Ceremonies",
@@ -66,12 +73,6 @@
 				"time" : "8 am"
 			},
 			{
-				"name" : "Yoga",
-				"description" : "Bring your own mat",
-				"location" : "2nd Floor Atrium, Rockwell Hall",
-				"time" : "9 am"
-			},
-			{
 				"name" : "3D printing Available",
 				"location" : "1st Floor, Fashion Library",
 				"time" : "9 am - 11 am"
@@ -121,6 +122,11 @@
 				"time" : "2 pm"
 			},
 			{
+				"name" : "Arduino Workshop",
+				"location" : "Room 152, Kent State Main Library",
+				"time" : "2:15 - 5 pm"
+			},
+			{
 				"name" : "3D Printing Workshop",
 				"description" : "Go to SPARK for 3D printing and a special giveaway!",
 				"location" : "SPARK Innovation Studio",
@@ -131,6 +137,12 @@
 				"description" : "Learn some basic web design to help get your creative portfolio off the ground",
 				"location" : "Room 128, Rockwell Hall",
 				"time" : "4 pm"
+			},
+			{
+				"name" : "Swimming",
+				"description" : "Bring your swimsuits so you can tag along!",
+				"location" : "Kent State Rec Center",
+				"time" : "5 - 7 pm"
 			},
 			{
 				"name" : "Dinner",
