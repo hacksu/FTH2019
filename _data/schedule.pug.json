@@ -111,12 +111,6 @@
 				"time" : "2 pm"
 			},
 			{
-				"name" : "3D Printing Workshop",
-				"description" : "Go to SPARK for 3D printing",
-				"location" : "SPARK Innovation Studio",
-				"time" : "3 pm"
-			},
-			{
 				"name" : "Swimming",
 				"description" : "Bring your swimsuits so you can tag along!",
 				"location" : "Kent State Rec Center",
