@@ -90,12 +90,6 @@
 				"time" : "10 am - Noon"
 			},
 			{
-				"name" : "Moving Forward with Your Hack Workshop",
-				"description" : "Learn the steps to continue your project after this weekend.",
-				"location" : "1st Floor Atrium, Rockwell Hall",
-				"time" : "10:30 am"
-			},
-			{
 				"name" : "Intro to Patternmaking Workshop",
 				"location" : "Room 324, Rockwell Hall",
 				"time" : "11 am"
@@ -112,31 +106,15 @@
 				"time" : "12:30 pm"
 			},
 			{
-				"name" : "Adobe Illustrator/Design Workshop",
-				"location" : "1:30 pm",
-				"time" : "Room 128, Rockwell Hall"
-			},
-			{
 				"name" : "Swag Giveaway #2",
 				"location" : "1st Floor Atrium, Rockwell Hall",
 				"time" : "2 pm"
 			},
 			{
-				"name" : "Arduino Workshop",
-				"location" : "Room 152, Kent State Main Library",
-				"time" : "2:15 - 5 pm"
-			},
-			{
 				"name" : "3D Printing Workshop",
-				"description" : "Go to SPARK for 3D printing and a special giveaway!",
+				"description" : "Go to SPARK for 3D printing",
 				"location" : "SPARK Innovation Studio",
 				"time" : "3 pm"
-			},
-			{
-				"name" : "Build a Portfolio Website Workshop",
-				"description" : "Learn some basic web design to help get your creative portfolio off the ground",
-				"location" : "Room 128, Rockwell Hall",
-				"time" : "4 pm"
 			},
 			{
 				"name" : "Swimming",
@@ -149,6 +127,11 @@
 				"description" : "Pasta with marinara sauce and meatballs from Belleria",
 				"location" : "2nd Floor Atrium, Rockwell Hall",
 				"time" : "7 pm"
+			},
+			{
+				"name" : "Record Your Pitch",
+				"location" : "Room 128, Rockwell Hall",
+				"time" : "9 pm - Midnight"
 			},
 			{
 				"name" : "Ice Cream Sundae Bar",
@@ -187,6 +170,12 @@
 				"name" : "Closing Ceremonies",
 				"location" : "1st Floor Lobby, Center for Architecture and Environmental",
 				"time" : "11 am"
+			},
+			{
+				"name" : "Gather your belongings",
+				"description" : "Collect all your belongings from the Fashion Library before it closes at noon",
+				"location" : "Fashion Library",
+				"time" : "Before Noon"
 			}
 		]}
 	]
